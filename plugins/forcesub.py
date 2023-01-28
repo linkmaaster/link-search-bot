@@ -17,7 +17,7 @@ async def forcesub(c:Client, m:Message):
                await m.reply_text("**Hey you are banned 😜**", quote=True)
                return
         except UserNotParticipant:
-            buttons = [[InlineKeyboardButton(text='Updates Channel 🔖', url=f"https://t.me/{Config.UPDATES_CHANNEL_USERNAME}")]]
+            buttons = [[InlineKeyboardButton(text='Updates Channel 🔖', url=f"https://t.me/Mp5moviez{Config.UPDATES_CHANNEL_USERNAME}")]]
             if m.text:
                 if (len(m.text.split()) > 1) & ('start' in m.text):
                     decoded_data = await decode(m.text.split()[1])
