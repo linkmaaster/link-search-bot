@@ -115,7 +115,7 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-			InlineKeyboardButton("Our Channe 🍿", url="https://t.me/IPopcornchannel"),
+			InlineKeyboardButton("How To Opan Link 🖇️", url="https://youtu.be/OzqSgCt58Vg"),
 			InlineKeyboardButton("Join Group 🍿", url="https://t.me/iPopcornGroup")
 		    ],
                     [
@@ -134,7 +134,7 @@ async def button(bot, cmd: CallbackQuery):
                 [
                      
 		    [
-			InlineKeyboardButton("Our Channe 🍿", url="https://t.me/IPopcornchannel"),
+			InlineKeyboardButton("Our Channel 🍿", url="https://t.me/IPopcornchannel"),
 			InlineKeyboardButton("Join Group 🍿", url="https://t.me/iPopcornGroup")
 		    ],
                     
