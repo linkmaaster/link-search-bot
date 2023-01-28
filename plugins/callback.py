@@ -97,8 +97,9 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
-            ],
+			InlineKeyboardButton("Our Channe 🍿", url="https://t.me/IPopcornchannel"),
+			InlineKeyboardButton("Join Group 🍿", url="https://t.me/iPopcornGroup")
+		    ],
                     [
                         InlineKeyboardButton("Home", callback_data="gohome"),
                         InlineKeyboardButton("Help", callback_data="Help_msg")
@@ -114,9 +115,10 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
-            ], 
-                                        [
+			InlineKeyboardButton("Our Channe 🍿", url="https://t.me/IPopcornchannel"),
+			InlineKeyboardButton("Join Group 🍿", url="https://t.me/iPopcornGroup")
+		    ],
+                    [
                         InlineKeyboardButton("About", callback_data="About_msg"),
                         InlineKeyboardButton("Home", callback_data="gohome")
                     ]
@@ -130,9 +132,12 @@ async def button(bot, cmd: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                                       [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
-            ],
+                     
+		    [
+			InlineKeyboardButton("Our Channe 🍿", url="https://t.me/IPopcornchannel"),
+			InlineKeyboardButton("Join Group 🍿", url="https://t.me/iPopcornGroup")
+		    ],
+                    
                     [
                         InlineKeyboardButton("About", callback_data="About_msg"),
                         InlineKeyboardButton("Help", callback_data="Help_msg")
