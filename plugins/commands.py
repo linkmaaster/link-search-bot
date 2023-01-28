@@ -11,7 +11,7 @@ async def help_handler(_, event: Message):
         reply_markup=InlineKeyboardMarkup([
         
     [
-	      InlineKeyboardButton("Our Channe 🍿", url="https://t.me/IPopcornchannel"),
+	      InlineKeyboardButton("Our Channel 🍿", url="https://t.me/IPopcornchannel"),
 	      InlineKeyboardButton("Join Group 🍿", url="https://t.me/iPopcornGroup")
 		    ],
 
@@ -38,7 +38,7 @@ async def start_handler(_,event: Message):
         reply_markup=InlineKeyboardMarkup([
            
       [
-	      InlineKeyboardButton("Our Channe 🍿", url="https://t.me/IPopcornchannel"),	
+	      InlineKeyboardButton("Our Channel 🍿", url="https://t.me/IPopcornchannel"),	
               InlineKeyboardButton("Join Group 🍿", url="https://t.me/iPopcornGroup")
 		    ],
 
