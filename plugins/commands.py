@@ -9,9 +9,11 @@ from TeamTeleRoid.database import db
 async def help_handler(_, event: Message):
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
-            ],
+        
+    [
+	      InlineKeyboardButton("Our Channe 🍿", url="https://t.me/IPopcornchannel"),
+	      InlineKeyboardButton("Join Group 🍿", url="https://t.me/iPopcornGroup")
+		    ],
 
              [InlineKeyboardButton("About", callback_data="About_msg"),
              InlineKeyboardButton("Help", callback_data="Help_msg")
@@ -34,9 +36,11 @@ async def start_handler(_,event: Message):
         photo=Config.START_PHOTO,
         caption=Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
-            ],
+           
+      [
+	      InlineKeyboardButton("Our Channe 🍿", url="https://t.me/IPopcornchannel"),	
+              InlineKeyboardButton("Join Group 🍿", url="https://t.me/iPopcornGroup")
+		    ],
 
              [InlineKeyboardButton("About", callback_data="About_msg"),
              InlineKeyboardButton("Help", callback_data="Help_msg")
