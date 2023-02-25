@@ -143,7 +143,7 @@ async def message_handler(event):
                                     f'https://youtu.be/OzqSgCt58Vg')]
 
         await txt.delete()
-        result = await event.reply(message, link_preview=False)
+        result = await event.reply(message, buttons=newbutton, link_preview=False)
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
         # await event.delete()
         return await result.delete()
