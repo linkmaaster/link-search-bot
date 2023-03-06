@@ -97,7 +97,7 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-			InlineKeyboardButton("How To Opan Link 🖇️", url="https://youtu.be/OzqSgCt58Vg"),
+			InlineKeyboardButton("How To Opan Link 🖇️", url="https://youtu.be/woLbksi-dOw"),
 		    ],
                     [
                         InlineKeyboardButton("Home", callback_data="gohome"),
@@ -114,7 +114,7 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-			InlineKeyboardButton("How To Opan Link 🖇️", url="https://youtu.be/OzqSgCt58Vg"),
+			InlineKeyboardButton("How To Opan Link 🖇️", url="https://youtu.be/woLbksi-dOw"),
 		    ],
                     [
                         InlineKeyboardButton("About", callback_data="About_msg"),
